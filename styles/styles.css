@@ -147,6 +147,13 @@ body {
     left: 0rem;
 }
 
+.product-container-p h1 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-shadow: 1px 1px #bdbec0;
+}
+
 .product-container img {
     display: grid;
     justify-items: center;
@@ -156,6 +163,13 @@ body {
     position: relative;
     top: 0rem;
     left: 0rem;
+}
+
+.product-container-p img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 60px;
 }
 
 .product-container-p:hover {
@@ -191,6 +205,17 @@ body {
     height: 100px;
     display: flex;
     text-align: center;
+}
+
+.button-add-p {
+    background-color: #FF9900;
+    color: black;
+    border: 2px solid #818b81; 
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+    cursor: pointer;
 }
 
 .button-add:hover {
