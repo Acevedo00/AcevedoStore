@@ -166,10 +166,15 @@ body {
 }
 
 .product-container-p img {
+    display: grid;
+    justify-items: center;
+    align-items: center;
     width: 250px;
     height: 250px;
     position: relative;
     left: 60px;
+    top: 0rem;
+    left: 0rem;
 }
 
 .product-container-p:hover {
