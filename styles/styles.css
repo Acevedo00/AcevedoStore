@@ -94,6 +94,15 @@ body {
 
   .page-content {
     display: grid ;
+    grid-template-rows: 1fr 1fr  ;
+    grid-template-columns: 1fr 1fr ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px ;
+    margin: 5px;
+}
+
+.page-content-p {
+    display: grid ;
     grid-template-rows: 39rem 39rem 39rem ;
     grid-template-columns: 39rem 39rem 39rem;
     grid-column-gap: 10px;
