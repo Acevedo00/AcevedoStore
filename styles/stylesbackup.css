@@ -166,6 +166,11 @@ button {
 }
 
 .product-container-p {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px ;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px ;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
     margin: 15px;
     padding: 2px 16px;
     position: relative;

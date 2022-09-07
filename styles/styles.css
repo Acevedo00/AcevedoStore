@@ -125,6 +125,22 @@ body {
     text-align: center;
 }
 
+.product-container-p {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px ;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px ;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
 .product-container h3 {
     display: grid;
     position: relative;
