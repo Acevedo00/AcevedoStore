@@ -126,19 +126,12 @@ body {
 }
 
 .product-container-p {
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px ;
-    grid-template-rows: 70px 70px 70px 70px 70px 70px ;
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
-    margin: 15px;
-    padding: 2px 16px;
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
     background-color: white;
-    width: 400px;
-    height: 400px;
     margin-bottom: 40px;
+    justify-content: center;
+    text-align: center;
 }
 
 .product-container h3 {
@@ -152,6 +145,9 @@ body {
     margin-bottom: 10px;
     margin-left: 5px;
     text-shadow: 1px 1px #bdbec0;
+    position: absolute;
+    left: 14rem;
+    bottom: 2rem;
 }
 
 .product-container img {
@@ -169,12 +165,11 @@ body {
     display: grid;
     justify-items: center;
     align-items: center;
-    width: 120px;
-    height: 120px;
+    height: 250px;
+    width: 250px;
     position: relative;
-    left: 60px;
-    top: 0rem;
-    left: 0rem;
+    top: 2rem;
+    left: 12rem;
 }
 
 .product-container-p:hover {
@@ -219,8 +214,10 @@ body {
     transition-duration: 0.4s;
     position: absolute;
     right: 25px;
-    bottom: 20px;
+    bottom: 2rem;
     cursor: pointer;
+    border-radius: 5px;
+    height: 3rem;
 }
 
 .button-add:hover {
