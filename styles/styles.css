@@ -368,14 +368,12 @@ body {
     
 @media screen and (max-width: 480px) {
     .page-nav {
-      display: grid;
+      display: flex;
       background-color: #131A22;
       border: 1px solid #131A22;
       align-items: center;
       justify-content: center;
       height: 150px;
-      grid-template-columns: 1fr 1fr 6fr;
-      grid-column-gap: 20px;
     }
     
     .page-nav h1 {
@@ -384,14 +382,12 @@ body {
         text-align: center;
         justify-content: center;
         font-size: 25px;
-    }
-
-    .page-nav button {
-        grid-template-columns: 1fr 1fr;
+        position: absolute;
+        top: 1rem;
+        left: 2rem;
     }
 
     .button-login {
-        display: grid;
         background-color: #FF9900;
         color: black;
         border: 2px solid #7e8181; /* Blue */
@@ -400,6 +396,10 @@ body {
         text-align: center;
         border-radius: 5px;
         width: 100px;
+        height: 30px;
+        position: absolute;
+        left: 17rem;
+        top: 6rem;
     }
 
     .button-carrito {
@@ -411,7 +411,18 @@ body {
         text-align: center;
         border-radius: 5px;
         width: 100px;
+        height: 30px;
+        position: absolute;
+        left: 17rem;
+        top: 2rem;
     }
+
+    .button-search {
+        position: absolute;
+        left: 1rem;
+        top: 7rem;
+        width: 210px;
+      }
     
     .page-navbar {
         display: grid;
@@ -438,11 +449,17 @@ body {
         grid-template-columns: 1fr;   
     }
 
+    .page-content-p {
+        display: grid ;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;   
+    }
+
     .button-help {
         margin: 15px;
         padding: 5px 6px;
         margin-left: 100px;
-        position: relative;
+        position: absolute;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
         background-color: white;
         width: 200px;
@@ -465,7 +482,7 @@ body {
 
     .product-container-p {
         display: grid;
-        grid-template-columns: 3rem;
+        grid-template-columns: 1rem;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
         background-color: white;
         margin-bottom: 80px;
@@ -475,38 +492,40 @@ body {
 
     .product-container-p h3 {
         display: grid;
-        position: relative;
-        left: 6rem;
+        position: absolute;
+        left: 7rem;
     }
 
     .product-container-p h1 {
         display: grid;
         position: relative;
-        right: 13rem;
-        top: 18rem;
+        left: 1rem;
+        top: 1rem;
+        font-size: 28px;
+        margin: 2rem;
     }
 
     .product-container-p img {
         display: grid;
         justify-items: center;
         align-items: center;
-        height: 250px;
-        width: 250px;
+        height: 150px;
+        width: 150px;
         position: relative;
-        top: 3rem;
-        left: -2rem;
+        top: 4rem;
+        left: -4rem;
     }
 
     .product-container-p button {
         display: grid;
         box-sizing: border-box;
         width: 100px;
-        height: 50px;
-        position: relative;
-        top: 19rem;
+        height: 40px;
+        position: absolute;
+        top: 11rem;
         border-radius: 10px;
         text-align: center;
-        left: 9rem;
+        left: 1rem;
     }
 
     .button-add-p {
@@ -524,27 +543,27 @@ body {
     .product-container h3 {
         display: grid;
         position: relative;
-        left: 6rem;
+        left: -3rem;
     }
 
     .product-container img {
         display: grid;
         justify-items: center;
         align-items: center;
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
         position: relative;
-        top: 3rem;
-        left: -2rem;
+        top: -1rem;
+        left: -6rem;
     }
 
     .product-container button {
-        display: grid;
         box-sizing: border-box;
         width: 100px;
         height: 50px;
         position: relative;
-        top: 19rem;
+        top: -1rem;
+        left: -3rem;
         border-radius: 10px;
         text-align: center;
     }
