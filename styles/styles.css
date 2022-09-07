@@ -142,6 +142,16 @@ body {
     left: 0rem;
 }
 
+.product-container-p:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.4s;
+  }
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition-duration: 0.4s;
+  }
+
 .product-container button {
     box-sizing: border-box;
     width: 100px;
@@ -165,6 +175,16 @@ body {
     height: 100px;
     display: flex;
     text-align: center;
+}
+
+.button-add:hover {
+    background-color: #5f7403; 
+    color: white;
+}
+
+.button-add-p:hover {
+    background-color: #5f7403; 
+    color: white;
 }
 
 .footer {
@@ -388,6 +408,64 @@ body {
         background-color: white;
         margin-bottom: 80px;
         justify-content: center;
+        text-align: center;
+    }
+
+    .product-container-p {
+        display: grid;
+        grid-template-columns: 3rem;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+        background-color: white;
+        margin-bottom: 80px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .product-container-p h3 {
+        display: grid;
+        position: relative;
+        left: 6rem;
+    }
+
+    .product-container-p h1 {
+        display: grid;
+        position: relative;
+        right: 13rem;
+        top: 18rem;
+    }
+
+    .product-container-p img {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        height: 250px;
+        width: 250px;
+        position: relative;
+        top: 3rem;
+        left: -2rem;
+    }
+
+    .product-container-p button {
+        display: grid;
+        box-sizing: border-box;
+        width: 100px;
+        height: 50px;
+        position: relative;
+        top: 19rem;
+        border-radius: 10px;
+        text-align: center;
+        left: 9rem;
+    }
+
+    .button-add-p {
+        background-color: #FF9900;
+        color: black;
+        border: 2px solid #818b81; /* Green */
+        transition-duration: 0.4s;
+        cursor: pointer;
+        width: 100px;
+        height: 100px;
+        display: flex;
         text-align: center;
     }
 
