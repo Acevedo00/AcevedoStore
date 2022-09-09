@@ -120,12 +120,15 @@ body {
     }
     
     .page-content-p {
-        display: grid ;
-        grid-template-rows: 39rem 39rem 39rem ;
-        grid-template-columns: 39rem 39rem 39rem;
-        grid-column-gap: 10px;
-        grid-row-gap: 10px ;
-        margin: 5px;
+      display: grid ;
+      grid-template-rows: 1fr ;
+      grid-template-columns: 18rem ;
+      grid-column-gap: 15rem;
+      grid-row-gap: 2rem ;
+      margin: 2rem;
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
     }
     
 
