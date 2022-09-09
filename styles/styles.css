@@ -89,9 +89,7 @@ body {
       }
     
       .slide img {
-        height: 65vh;
-        min-height: 300px;
-    
+        height: 25vh;
       }
     
       .carousel-caption h5 {
