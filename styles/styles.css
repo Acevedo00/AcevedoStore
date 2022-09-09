@@ -75,11 +75,14 @@ body {
 
 .page-content-p {
     display: grid ;
-    grid-template-rows: 39rem 39rem 39rem ;
-    grid-template-columns: 39rem 39rem 39rem;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px ;
-    margin: 5px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 19rem 19rem 19rem;
+    grid-column-gap: 5rem;
+    grid-row-gap: 1rem ;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
     
 @media screen and (max-width: 480px) {
