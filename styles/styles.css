@@ -1,125 +1,131 @@
 * {
-    font-family: Noto Sans, cursive;  
+  font-family: Noto Sans, cursive;  
 }
 
 body {
-    margin: 0px;
-    background-color: aliceblue;
-    font-family: 'Noto Sans', cursive;
-    overflow-x: hidden;
+  margin: 0px;
+  background-color: aliceblue;
+  font-family: 'Noto Sans', cursive;
+  overflow-x: hidden;
 }
 
 .parallax {
-    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-marmol-gris-sucio_53876-108405.jpg?w=1380&t=st=1660846948~exp=1660847548~hmac=0be5d47d523d7a2cc8fe7ce7b8dc6a9ad03833e5ef88e3c8c42caf927b2a09e4);
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-marmol-gris-sucio_53876-108405.jpg?w=1380&t=st=1660846948~exp=1660847548~hmac=0be5d47d523d7a2cc8fe7ce7b8dc6a9ad03833e5ef88e3c8c42caf927b2a09e4);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .page-nav {
-    display: grid;
-    background-color: #131A22;
-    border: 1px solid #131A22;
-    align-items: center;
-    justify-content: center;
-    height: 150px;
-    grid-column-gap: 20px;
-  }
+  display: grid;
+  background-color: #131A22;
+  border: 1px solid #131A22;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  grid-column-gap: 20px;
+}
 
-  .navbar {
-    background-color: #131A22;
-    color: white;
-    justify-content: center;
-  }
+.navbar {
+  background-color: #131A22;
+  color: white;
+  justify-content: center;
+}
 
-  .text-center {
-    background-color: #131A22;
-    color: white;
-  }
+.navbar-brand {
+  color: white;
+}
 
-  .carousel {
-    margin: 1rem;
-  }
+.nav-link  {
+  color: white;
+}
 
-  .slide img {
-    height: 65vh;
-    min-height: 300px;
+.text-center {
+  background-color: #131A22;
+  color: white;
+}
 
-  }
+.carousel {
+  margin: 1rem;
+}
 
-  .carousel-caption h5 {
-    text-shadow: black 5px ;
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-  }
+.slide img {
+  height: 65vh;
+  min-height: 300px;
 
-  .carousel-caption p {
-    text-shadow: black 5px ;
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-  }
+}
 
-  .page-content {
-    display: grid ;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 18rem 18rem;
-    grid-column-gap: 15rem;
-    grid-row-gap: 2rem ;
-    margin: 2rem;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
+.btn-primary {
+  color: black;
+  background-color: #FF9900;
+}
+
+.btn-outline-success {
+  color: black;
+  background-color: #FF9900;
+}
+
+.carousel-caption h5 {
+  text-shadow: black 5px ;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.carousel-caption p {
+  text-shadow: black 5px ;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.page-content {
+  display: grid ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 18rem 18rem 18rem;
+  grid-column-gap: 15rem;
+  grid-row-gap: 2rem ;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
 
 .page-content-p {
-    display: grid ;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 19rem 19rem 19rem;
-    grid-column-gap: 5rem;
-    grid-row-gap: 1rem ;
-    margin: 1rem;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
+  display: grid ;
+  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-columns: 18rem 18rem 18rem 18rem;
+  grid-column-gap: 5rem;
+  grid-row-gap: 1rem ;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
-    
+  
 @media screen and (max-width: 480px) {
 
-    .carousel {
-        margin: 1rem;
-      }
-    
-      .slide img {
-        height: 25vh;
-      }
-    
-      .carousel-caption h5 {
-        text-shadow: black 5px ;
-        font-size: 30px;
-        color: rgb(0, 0, 0);
-      }
-    
-      .carousel-caption p {
-        text-shadow: black 5px ;
-        font-size: 18px;
-        color: rgb(0, 0, 0);
-      }
-    
-      .page-content {
-        display: grid ;
-        grid-template-rows: 1fr ;
-        grid-template-columns: 18rem ;
-        grid-column-gap: 15rem;
-        grid-row-gap: 2rem ;
-        margin: 2rem;
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
+  .carousel {
+      margin: 1rem;
     }
-    
-    .page-content-p {
+  
+    .slide img {
+      height: 25vh;
+    }
+  
+    .carousel-caption h5 {
+      text-shadow: black 5px ;
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+    }
+  
+    .carousel-caption p {
+      text-shadow: black 5px ;
+      font-size: 18px;
+      color: rgb(0, 0, 0);
+    }
+  
+    .page-content {
       display: grid ;
       grid-template-rows: 1fr ;
       grid-template-columns: 18rem ;
@@ -129,8 +135,20 @@ body {
       justify-content: center;
       align-items: center;
       justify-items: center;
-    }
-    
+  }
+  
+  .page-content-p {
+    display: grid ;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 18rem ;
+    grid-column-gap: 15rem;
+    grid-row-gap: 2rem ;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  
 
 }
 
