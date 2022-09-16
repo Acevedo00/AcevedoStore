@@ -34,6 +34,14 @@ body {
     justify-content: center;
   }
 
+  .navbar-brand {
+    color: white;
+  }
+  
+  .nav-link  {
+    color: white;
+  }
+
   .text-center {
     background-color: #131A22;
     color: white;
@@ -47,6 +55,16 @@ body {
     height: 65vh;
     min-height: 300px;
 
+  }
+
+  .btn-primary {
+    color: black;
+    background-color: #FF9900;
+  }
+
+  .btn-outline-success {
+    color: black;
+    background-color: #FF9900;
   }
 
   .carousel-caption h5 {
@@ -63,8 +81,8 @@ body {
 
   .page-content {
     display: grid ;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 18rem 18rem;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 18rem 18rem 18rem;
     grid-column-gap: 15rem;
     grid-row-gap: 2rem ;
     margin: 2rem;
@@ -75,8 +93,8 @@ body {
 
 .page-content-p {
     display: grid ;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 19rem 19rem 19rem;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 18rem 18rem 18rem 18rem;
     grid-column-gap: 5rem;
     grid-row-gap: 1rem ;
     margin: 1rem;
