@@ -8,7 +8,8 @@ body {
   font-family: "Noto Sans", cursive;
   overflow-x: hidden;
 }
-body .parallax {
+
+.parallax {
   background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-marmol-gris-sucio_53876-108405.jpg?w=1380&t=st=1660846948~exp=1660847548~hmac=0be5d47d523d7a2cc8fe7ce7b8dc6a9ad03833e5ef88e3c8c42caf927b2a09e4);
   min-height: 500px;
   background-attachment: fixed;
@@ -16,7 +17,8 @@ body .parallax {
   background-repeat: no-repeat;
   background-size: cover;
 }
-body .page-nav {
+
+.page-nav {
   display: grid;
   background-color: #131A22;
   border: 1px solid #131A22;
@@ -29,24 +31,29 @@ body .page-nav {
 .carousel {
   margin: 1rem;
 }
-.carousel .slide img {
+
+.slide img {
   height: 65vh;
   min-height: 300px;
 }
-.carousel .slide img .btn-primary {
+
+.btn-primary {
   color: black;
   background-color: #FF9900;
 }
-.carousel .slide img .btn-outline-success {
+
+.btn-outline-success {
   color: black;
   background-color: #FF9900;
 }
-.carousel .slide img .carousel-caption h5 {
+
+.carousel-caption h5 {
   text-shadow: black 5px;
   font-size: 30px;
   color: rgb(0, 0, 0);
 }
-.carousel .slide img .carousel-caption p {
+
+.carousel-caption p {
   text-shadow: black 5px;
   font-size: 18px;
   color: rgb(0, 0, 0);
@@ -57,13 +64,16 @@ body .page-nav {
   color: white;
   justify-content: center;
 }
-.navbar .navbar-brand {
+
+.navbar-brand {
   color: white;
 }
-.navbar .nav-link {
+
+.nav-link {
   color: white;
 }
-.navbar .text-center {
+
+.text-center {
   background-color: #131A22;
   color: white;
 }
