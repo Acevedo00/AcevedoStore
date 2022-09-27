@@ -1,18 +1,18 @@
 .navbar {
-    background-color: #131A22;
-    color: white;
+  @extend %backgroundColorDefault;
+    @extend %colorDefault;
     justify-content: center;
   }
 
   .navbar-brand {
-    color: white;
+    @extend %colorDefault;
   }
 
   .nav-link  {
-    color: white;
+    @extend %colorDefault;
   }
 
   .text-center {
-    background-color: #131A22;
-    color: white;
+    @extend %backgroundColorDefault;
+    @extend %colorDefault;
   }

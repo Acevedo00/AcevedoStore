@@ -1,12 +1,12 @@
 * {
-    font-family: Noto Sans, cursive;  
+    font-family: map-get($body, fontFamily);  
   }
 
   body {
     margin: 0px;
-    background-color: aliceblue;
-    font-family: 'Noto Sans', cursive;
-    overflow-x: hidden;
+    background-color: map-get($body, backgroundColor);
+    font-family: map-get($body, fontFamily);
+    overflow-x: map-get($body, overflowX);
 }
 
 .parallax {
