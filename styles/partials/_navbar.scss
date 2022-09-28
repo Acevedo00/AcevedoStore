@@ -6,6 +6,7 @@
 
   .navbar-brand {
     @extend %colorDefault;
+    justify-content: center;
   }
 
   .nav-link  {
@@ -15,4 +16,8 @@
   .text-center {
     @extend %backgroundColorDefault;
     @extend %colorDefault;
+  }
+
+  .container-fluid {
+    justify-content: center;
   }
