@@ -2,6 +2,22 @@
   font-family: Noto Sans, cursive;
 }
 
+.div-productos {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 17rem 17rem 17rem 17rem;
+  grid-column-gap: 4rem;
+  grid-row-gap: 1rem;
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.div-productos img {
+  width: 100%;
+}
+
 body {
   margin: 0px;
   background-color: aliceblue;
