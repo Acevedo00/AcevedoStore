@@ -162,7 +162,7 @@ body {
     font-size: 18px;
     color: rgb(0, 0, 0);
   }
-  .page-content {
+  .div-productos {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 18rem;
